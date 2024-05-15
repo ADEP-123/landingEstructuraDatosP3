@@ -103,8 +103,8 @@ main{
 .exercise {
     position: relative;
     text-align: center;
-    width: 400px; /* Ancho total de las imágenes */
-    height: 500px; /* Alto total de las imágenes */
+    width: 400px; 
+    height: 500px; 
 }
 
 .exercise img {
@@ -117,21 +117,21 @@ main{
 .cajero {
     top: -40px;
     left: -82px;
-    z-index: 2; /* Imagen del cajero en la parte superior */
+    z-index: 2; 
     width: 350px;
     height: auto;
 }
 
 .hanoi {
-    top: 52px; /* Distancia vertical entre las imágenes */
-    left: 184px; /* Distancia horizontal entre las imágenes */
-    z-index: 1; /* Imagen de la torre de Hanoi en la parte inferior */
+    top: 52px; 
+    left: 184px; 
+    z-index: 1; 
     width: 340px;
     height: auto;
 }
 
 .exercise img:hover {
-    z-index: 3; /* Aumenta el z-index al pasar el mouse para colocar la imagen sobre las demás */
+    z-index: 3; 
     filter: grayscale(0%);
 }
 
