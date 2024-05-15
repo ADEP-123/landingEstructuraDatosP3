@@ -109,25 +109,47 @@ main{
 
 .exercise img {
     position: absolute;
-    transition: z-index 0.3s, filter 0.3s;
     filter: grayscale(100%);
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .cajero {
-    top: -40px;
-    left: -82px;
+    width: 17.70vw;
+    top: -2.083vw;
+    left: -4.271vw;
     z-index: 2; 
-    width: 350px;
     height: auto;
 }
 
+.cajero:hover {
+    width: 19.271vw;
+    top: -2.604vw;
+    left: -4.792vw;
+    transition: .5s;
+}
+
+.cajero:not(:hover) {
+    transition: .5s;
+}
+
 .hanoi {
-    top: 52px; 
-    left: 184px; 
+    width: 17.70vw;
+    top: 2.708vw; 
+    left: 9.583vw; 
     z-index: 1; 
-    width: 340px;
     height: auto;
+}
+
+.hanoi:hover {
+    width: 19.271vw;
+    top: 2.188vw;
+    left: 9.063vw;
+    transition: .5s;
+}
+
+.hanoi:not(:hover) {
+    transition: .5s;
 }
 
 .exercise img:hover {
@@ -147,6 +169,7 @@ main{
     background-color: var(--color--one);
     padding: 25px;
     border-radius: 20px;
+    height: 100%;
 }
 
 .icono {
@@ -180,4 +203,27 @@ main{
 
 .icono:nth-child(3) i:hover {
     color: #f5dc3c; 
+}
+
+
+@media (max-width: 1250px){
+    .cajero {
+        transform: translate(50%, 50%)
+    } 
+    .hanoi {
+        transform: translate(50%, 50%)
+    }
+}
+
+@media (max-width: 900px){
+    .cajero {
+        transform: translate(100%, 100%)
+    } 
+    .hanoi {
+        transform: translate(100%, 100%)
+    }
+}
+
+@media (max-width: 700px){
+    /* movile*/
 }
