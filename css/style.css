@@ -50,7 +50,10 @@
 }
 
 .about__container{
-    background: red;
+    background: white;
+    border-radius: 50px;
+    border: 10px solid var(--color--one);
+    padding: 50px;
     filter: none;
     width: 80vw;
     height: 80vh;
