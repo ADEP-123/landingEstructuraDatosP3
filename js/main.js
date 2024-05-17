@@ -24,7 +24,7 @@ imgCajero.addEventListener("click", e => {
     <p>El problema de las filas en el banco surgió de la observación de las colas de personas esperando atención en bancos, supermercados y otros establecimientos de servicios. Esta situación diaria ha sido estudiada en la teoría de colas y la gestión de operaciones para comprender y optimizar tanto el tiempo de espera como la eficiencia del servicio.
     <br>Para entender este problema, se realizo un aplicativo web interactivo sobre el uso de cajeros electronicos, donde la persona prodra, agregar cajeros, eliminar cajeros, agregar personas a los cajeros y a la fila de espera por ser atendidos, al igual que completar transacciones (es decir, cuando la persona completa su transaccion en el cajero y sale de la fila). 
     </p>
-    <button id="buttonCajero" class="ex__button">Ir a Página</button>`
+    <button id="buttonCajero" class="ex__button">Ir a la Página</button>`
     generarRecuadro(strHTML)
     redireccionButton("buttonCajero", 'https://adep-123.github.io/estructuraDatosA/')
 });
@@ -42,7 +42,7 @@ imgHanoi.addEventListener("click", e => {
     2. Un disco de mayor tamaño no puede descansar sobre uno más pequeño que él mismo. <br>
 
     3. Sólo puedes desplazar el disco que se encuentre arriba en cada varilla.  </p>
-    <button id="buttonHanoi" class="ex__button">Ir a Página</button>`
+    <button id="buttonHanoi" class="ex__button">Ir a la Página</button>`
     generarRecuadro(strHTML)
     redireccionButton("buttonHanoi", 'https://adep-123.github.io/estructuraDatosB/')
 });
