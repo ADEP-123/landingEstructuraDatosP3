@@ -14,7 +14,7 @@ imgCajero.addEventListener("click", e => {
     e.preventDefault()
     let strHTML =  `<p>El Problema de la Cola del Banco consiste en simular la dinámica de una fila de clientes que esperan ser atendidos por un cajero en un banco. Cada cliente llega a la cola en un momento determinado y espera su turno para ser atendido. El cajero atiende a los clientes en el orden en que llegaron, siguiendo el principio de "primero en entrar, primero en salir" (FIFO). <br>
     Para el desarrollo de este ejercicio se uso html y css para el frontend y js para el backend.</p>
-    <button id="buttonCajero">Ir a Página</button>`
+    <button id="buttonCajero" class="ex__button">Ir a Página</button>`
     generarRecuadro(strHTML)
     redireccionButton("buttonCajero", 'https://www.youtube.com/watch?v=Z3J_MCbwaJ0') 
 });
@@ -28,7 +28,7 @@ imgHanoi.addEventListener("click", e => {
     2. Un disco de mayor tamaño no puede descansar sobre uno más pequeño que él mismo. <br>
 
     3. Sólo puedes desplazar el disco que se encuentre arriba en cada varilla.  </p>
-    <button id="buttonHanoi">Ir a Página</button>`
+    <button id="buttonHanoi" class="ex__button">Ir a Página</button>`
     generarRecuadro(strHTML)
     redireccionButton("buttonHanoi", 'https://www.youtube.com/watch?v=dQw4w9WgXcQ')
 });

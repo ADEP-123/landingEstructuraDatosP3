@@ -96,6 +96,20 @@
     cursor: pointer;
 }
 
+.ex__button{
+    background: var(--color--one);
+    color: var(--color--two);
+    border: 0;
+    font-size: 1.7vw;
+    padding: 1vw 3vw;
+    border-radius: 100px;
+}
+
+.ex__button:hover{
+    background: var(--color--three);
+    cursor: pointer;
+}
+
 .main__exercises{
     grid-area: exercises;
     display: flex;
