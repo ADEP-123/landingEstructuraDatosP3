@@ -24,8 +24,12 @@ imgCajero.addEventListener("click", e => {
 
 imgHanoi.addEventListener("click", e => {
     e.preventDefault()
-    let strHTML = `<p>El ejercicio de la Torre de Hanoi se basa en una leyenda india sobre el fin del mundo, donde monjes deben mover 64 discos de oro siguiendo reglas específicas. El matemático francés Édouard Lucas en 1883, basandose en esta leyenda crea este rompecabezas de tres varillas y discos de madera que enseña principios de algoritmos y estructuras de datos. Según la leyenda, tomaría más de 500 billones de siglos completar la tarea, simbolizando la eternidad. <br>
-    Reglas: <br>
+    let strHTML = /*html*/`<h1>Problema de la Torre de Hanoi</h1>
+    <img src="storage/img/hanoi.gif" alt="">
+    <p>El ejercicio de la Torre de Hanoi se basa en una leyenda india sobre el fin del mundo, donde monjes deben mover 64 discos de oro siguiendo reglas específicas. 
+    <br>El matemático francés Édouard Lucas en 1883, basandose en esta leyenda crea este rompecabezas de tres varillas y discos de madera que enseña principios de algoritmos y estructuras de datos. Según la leyenda, tomaría más de 500 billones de siglos completar la tarea, simbolizando la eternidad. <br>
+    Para el desarrollo de este aplicativo, realizamos el juego de la torre de Hanoi en una interfaz interactiva donde el usuario podra arrastrar los discos para solucionar el sistema, ademas de que podra elegir la cantidad de discos, en que parte iniciar y ver la solucion del problema
+    <br><b>Reglas:</b><br>
     1. Sólo se puede mover un disco cada vez. <br>
 
     2. Un disco de mayor tamaño no puede descansar sobre uno más pequeño que él mismo. <br>
