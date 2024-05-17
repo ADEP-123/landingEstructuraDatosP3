@@ -6,7 +6,14 @@ let main = document.querySelector(".main")
 
 btnAbout.addEventListener("click", e => {
     e.preventDefault()
-    let strHTML = `<p>Aqui tenemos que poner el html de nosotros jeje</p>`
+    let strHTML = /*html*/`<h1>Autores</h1>
+    <p><b>Santiago Alexander Opsina Pabon</b> - 01220371058</p>
+    <p><b>Santiago Sánchez Ribero</b> - 01220371063</p>
+    <p><b>Andrés David Elizalde Peralta</b> - 01220371068</p>
+    <p><b>Karen Melissa Parada Páez</b> - 01220371059</p>
+    <p><b>Agmeth Saith Guerra Martínez</b> - 01210372014</p>
+    <p><b>Karen Yulieth Duran Urbano</b> - 01220371017</p>
+    `
     generarRecuadro(strHTML)
 });
 
