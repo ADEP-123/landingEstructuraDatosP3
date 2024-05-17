@@ -15,7 +15,7 @@ imgCajero.addEventListener("click", e => {
     let strHTML =  `<p>Aqui tenemos que poner el html e ejercicio 1</p>
     <button id="buttonCajero">Ir a Página</button>`
     generarRecuadro(strHTML)
-    redireccionButton("buttonHanoi", 'https://www.youtube.com/watch?v=Z3J_MCbwaJ0') 
+    redireccionButton("buttonCajero", 'https://www.youtube.com/watch?v=Z3J_MCbwaJ0') 
 });
 
 imgHanoi.addEventListener("click", e => {
