@@ -12,14 +12,18 @@ btnAbout.addEventListener("click", e => {
 
 imgCajero.addEventListener("click", e => {
     e.preventDefault()
-    let strHTML =  `<p>Aqui tenemos que poner el html e ejercicio 1</p>`
+    let strHTML =  `<p>Aqui tenemos que poner el html e ejercicio 1</p>
+    <button id="buttonCajero">Ir a Página</button>`
     generarRecuadro(strHTML)
+    redireccionButton("buttonHanoi", 'https://www.youtube.com/watch?v=Z3J_MCbwaJ0') 
 });
 
 imgHanoi.addEventListener("click", e => {
     e.preventDefault()
-    let strHTML =  `<p>Aqui tenemos que poner el html e ejercicio 2</p>`
+    let strHTML =  `<p>Aqui tenemos que poner el html e ejercicio 2</p>
+    <button id="buttonHanoi">Ir a Página</button>`
     generarRecuadro(strHTML)
+    redireccionButton("buttonHanoi", 'https://www.youtube.com/watch?v=dQw4w9WgXcQ')
 });
 
 function generarRecuadro(data){
@@ -28,6 +32,13 @@ function generarRecuadro(data){
     document.querySelector('.about__container').innerHTML = data
 }
 
+function redireccionButton(buttonId, url){
+    let redireccionButton = document.getElementById(buttonId);
+    redireccionButton.addEventListener("click", e=>{
+        e.preventDefault()
+        window.location.href=url
+    })
+}
 let closeButton = document.getElementById("closeButton")
 closeButton.addEventListener("click", e=>{
     e.preventDefault()
