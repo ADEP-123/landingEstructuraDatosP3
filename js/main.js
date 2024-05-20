@@ -55,7 +55,6 @@ function generarRecuadro(data) {
 
 function redireccionButton(buttonId, url) {
     let redireccionButton = document.getElementById(buttonId);
-    redireccionButton.removeEventListener("click", e => { })
     redireccionButton.addEventListener("click", e => {
         e.preventDefault()
         window.location.href = url
@@ -65,6 +64,8 @@ function redireccionButton(buttonId, url) {
 let closeButton = document.getElementById("closeButton")
 closeButton.addEventListener("click", e => {
     e.preventDefault()
+    let redireccionButton = document.getElementById(buttonId);
+    redireccionButton.removeEventListener("click", e => { })
     main.classList.remove("blur")
     cuadroAbout.style.display = "none"
 })
